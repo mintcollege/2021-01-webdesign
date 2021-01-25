@@ -1,0 +1,22 @@
+html, body {
+    font-family: Trebuchet, Tahoma, Arial, sans-serif;
+    font-size: 14px;
+}
+
+navbar ul {
+    list-style-type: none;
+    padding:0;
+}
+footer {background: #BBBBBB;}
+footer small {
+    font-family: Verdana, Trebuchet, Tahoma, Arial, sans-serif;
+    font-size: 9px;
+}
+main {
+    width: 1000px;
+}
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 36px;
+}
+h2 {font-size: 28px;}
