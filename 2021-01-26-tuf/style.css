@@ -1,0 +1,25 @@
+body {
+    background: #efefef;
+}
+a {
+    color: #4EB548;
+}
+/* Pseudo Selectors */
+a:hover {
+    /* This is a comment. This does this thing when the thing happens. */
+    color: red;
+}
+p {
+    color: #333333;
+}
+navbar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+navbar li {
+    display: inline-block;
+}
+div {
+    text-align: center;
+}
