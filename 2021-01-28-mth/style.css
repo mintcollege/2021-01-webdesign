@@ -1,0 +1,29 @@
+body .wrapper {
+    width: 700px;
+}
+.article-meta-info {
+    color: #888888;
+}
+.article-meta-info em {
+    font-weight: bold;
+}
+
+#home {
+    background: #ADD8E6;
+}
+
+#header {}
+#footer {}
+
+#page-top {}
+#page-content {}
+
+
+#home article .article-meta-info {}
+
+#portfolio {}
+
+
+/* Override the default css */
+/* Only type it if you want to override it */
+p {}
