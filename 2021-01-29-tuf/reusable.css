@@ -1,0 +1,53 @@
+/* Reusable css */
+html, body {
+    font-family: Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+    font-size: 14px;
+    background: #efefef;
+    color: #333333;
+}
+h1 {
+    font-size: 36px;
+    color: green;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 26px;
+}
+h6 {
+    font-size: 10px;
+}
+.font-34 {
+    font-size: 34px!important;
+}
+
+.color-red {
+    color: red;
+}
+.color-blue {
+    color: blue;
+}
+.color-gray {
+    color: gray;
+}
+.navbar-layout {
+    background: #5dbb63;
+    text-align: center;
+}
+.navbar-layout a {
+    color: #FFFFFF;
+}
+.navbar-layout li {
+    display: inline;
+}
+
+.font-bold {
+    font-weight: bold;
+}
