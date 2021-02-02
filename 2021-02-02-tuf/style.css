@@ -1,0 +1,16 @@
+
+body {
+    padding:20px;
+}
+main {
+    height:1000px;
+    width:1000px;
+    background:url(images/square.png) no-repeat #efefef;
+}
+
+#sometext {
+    width:250px;
+    background:#5dbb63;
+    border:15px solid #0099FF;
+    margin:10px;
+}

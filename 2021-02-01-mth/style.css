@@ -1,0 +1,12 @@
+body {
+    background: url(square.png) no-repeat 30px 0;
+    padding:30px;
+}
+
+#boxmodel {
+    background:#90ee90;
+    width:258px;
+    border:1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+}

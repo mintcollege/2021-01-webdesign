@@ -1,0 +1,14 @@
+html, body {
+    background:#efefef;
+    font-family:Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
