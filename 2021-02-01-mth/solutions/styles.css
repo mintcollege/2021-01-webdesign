@@ -4,13 +4,15 @@ header {margin-bottom:10px;}
 main {padding: 30px 100px;}
 .text-red {color:red}
 
-#sol1, #sol2, #sol3, #sol4, #sol5, #sol6 {background:green; margin-bottom:20px;}
+#sol1, #sol2, #sol3, #sol4, #sol5, #sol6 {margin-bottom:20px;}
+#sol1, #sol2 {background:green;}
+#sol3, #sol4, #sol5, #sol6 {background:coral;}
 #sol4 {padding:9px;}
 #sol5 {padding:9px 18px;}
 
 #sol1 .wrapper {padding:20px 20px 10px;}
-#sol1 .col {float:left; background:#09F; width:193px; border:1px solid #333; margin:0 10px 10px 0; padding:10px;}
-#sol1 .col:last-child {width:213px; border-right:1px solid #333; margin-right:0; }
+#sol1 .col {float:left; background:#09F; width:196px; border:1px solid #333; margin:0 10px 10px 0; padding:10px;}
+#sol1 .col:last-child {width:213px; border-right:1px solid #333; margin-right:0;}
 
 #sol2 .row, #sol3 .row {margin:0 10px;}
 #sol2 .row div, #sol3 .row div {padding:10px;}
@@ -19,10 +21,11 @@ main {padding: 30px 100px;}
 
 #sol4 .col {float:left; width:314px;}
 #sol4 .col div {background:#09F; margin:0 10px 10px; border:1px solid #333; padding:9px;}
+#sol4 .col div:last-child {margin-right:0;}
 
 #sol5 .wrapper {display:grid; grid-template-columns:repeat(3, 1fr); grid-gap:1rem;}
 #sol5 .col {display:flex; flex-direction:column;justify-content:space-between; background:#09F; border:1px solid #333; padding:10px;}
 
 #sol6 {text-align:center; padding-top:10px;}
 #sol6 .col {display:inline-block; background:#09F; border:1px solid #333; padding:9px; margin-bottom:10px; width:29%;}
-#sol6 .col:first-child + .col {margin:0 10px;}
+#sol6 .col:first-child + div {margin:0 10px;}
