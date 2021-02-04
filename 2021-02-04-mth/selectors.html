@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectors</title>
+    <style type="text/css">
+        /* Get the opposite */
+        p:not(.color-yellow) {border:1px solid #000; margin:10px;}
+        /* Get tag by count */
+        div.abc div:nth-child(3) {border:1px solid #000; margin:10px;}
+        /* Pseudo selectors */
+        html, body {font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;}
+        a:link {color:red; text-decoration:none; font-weight:normal;}
+        a:hover {color:#09F; text-decoration:underline; font-weight:bold;
+            background:url(nature.jpg) no-repeat;}
+        a:visited {color:#0dcaf0;}
+        .color-yellow {color:yellow;}
+    </style>
+</head>
+<body>
+
+
+<div class="abc">
+    <div>aaa</div>
+    <div>bbb</div>
+    <div>ccc</div>
+    <div>ddd</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+    <p><a href="#">click me now</a></p>
+    <div class="color-yellow">one</div>
+    <div class="">two
+        <p>aaa</p>
+        <div>bbb</div>
+    </div>
+    <p>three</p>
+    <div class="col">four</div>
+</div>
+<div class="color-yellow">selected</div>
+<p>not selected</p>
+<div>selected</div>
+
+
+
+<main>
+    <section>
+        <div>
+            <p class="color-yellow">Hello</p>
+            <p>There</p>
+        </div>
+        <p class="color-yellow">This is not affected</p>
+    </section>
+</main>
+
+</body>
+</html>
