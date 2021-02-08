@@ -69,3 +69,51 @@ h3 {
 #banners > div:last-child {
     margin-left:12px;
 }
+
+
+/* ------------------------------------------- */
+#products {}
+#products h4 {
+    padding:10px;
+    margin-bottom:20px;
+    height:70px;
+}
+#products h4 a {
+    text-decoration:none;
+    color:#333;
+}
+#products h4 a:hover {
+    text-decoration:underline;
+}
+#products .prod-wrapper > div {
+    border:1px solid #CCC;
+}
+#products .prod-wrapper > div:hover {
+    border:1px solid #999;
+}
+#products .prod-wrapper > div {width:214px; height:370px; float:left; overflow:hidden; margin-right:12px;}
+#products .prod-wrapper > div:last-child {
+    margin:0;
+}
+#products .action {
+    text-align:center;
+}
+.actionbtn {
+    text-decoration:none;
+    font-weight:bold;
+    background:#0a53be;
+    color:#FFF;
+    padding:5px 10px;
+    border-radius:3px;
+    border-top:1px solid #09F;
+    border-left:1px solid #09F;
+}
+.actionbtn:hover {
+    background:#ffecb5;
+    color:#E77600;
+    border-top:none;
+    border-left:none;
+    border-right:1px solid #8E4800;
+    border-bottom:1px solid #8E4800;
+    box-shadow:0 0 5px #777;
+}
