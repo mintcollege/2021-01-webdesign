@@ -1,0 +1,125 @@
+html, body {
+    font-family: Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+    color: #6897BA;
+}
+.commonbg {
+    background: #DCE6EE;
+    border: 1px solid #67B3AC;
+    border-radius: 3px;
+}
+#sitewrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+h1 {}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 26px;
+}
+a {
+    color:#0a58ca;
+}
+
+#header {
+    margin-bottom: 30px;
+}
+#header .logo {
+    float: left;
+}
+#header .topmenu {
+    float: right;
+}
+
+#navbar {margin-top:60px;}
+#navbar li {
+    display:inline-block;
+}
+#navbar a {
+    text-decoration:none;
+    color: #467598;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+#navbar a:hover {
+    background: #DCE7EF;
+}
+
+#feature {
+    margin-bottom: 30px;
+    text-align: right;
+}
+#feature .text {margin-left:500px;}
+#feature .commonbg {
+    padding: 20px;
+}
+
+#banners {
+    margin-bottom:30px;
+}
+#banners > div {
+    width:290px;
+    height:150px;
+    line-height:150px;
+    float:left;
+    text-align:center;
+    font-size:40px;
+}
+#banners > div:first-child {
+    margin-right:12px;
+}
+#banners > div:last-child {
+    margin-left:12px;
+}
+
+#products {
+    margin-bottom:30px;
+}
+#products .prod-wrapper > div {
+    float:left;
+    width:216px;
+    margin-right:12px;
+    padding-bottom:20px;
+}
+#products .prod-wrapper > div:hover {
+    background:#DDD;
+    box-shadow:0 5px 10px #AAA;
+}
+#products .prod-wrapper > div:last-child {
+    margin:0;
+}
+#products h5 {
+    padding:10px;
+    margin-bottom:10px;
+}
+#products h5 a {
+    color:#333;
+    font-weight:bold;
+    text-decoration:none;
+}
+#products h5 a:hover {
+    text-decoration:underline;
+}
+#products .action {
+    text-align:center;
+}
+.actionbtn {
+    background:#0a53be;
+    color:#FFF;
+    padding:5px 10px;
+    text-decoration:none;
+    border-radius:3px;
+    border-right:1px solid #0A3B5E;
+    border-bottom:1px solid #0A3B5E;
+}
+.actionbtn:hover {
+    background:#ff8b3d;
+    border-right:1px solid #B54900;
+    border-bottom:1px solid #B54900;
+}
+
+#footer {
+    height:100px;
+    background:#DDD;
+}
