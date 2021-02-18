@@ -1,0 +1,19 @@
+html, body {
+    color:#4e5b61;
+}
+
+h2 {
+    font-family:Aller, "Open Sans", Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size:36px;
+}
+p {
+    font-family:"Open Sans", Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+    font-size:19px;
+}
+
+#about {
+    border-bottom:1px solid #CCC;
+    padding-top:60px;
+    background:url(../images/bg-about-us.png) center bottom repeat-x;
+}

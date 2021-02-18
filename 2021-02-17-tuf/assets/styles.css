@@ -1,0 +1,31 @@
+html, body {
+    background:url(../images/web-feature-bg.jpg) center top no-repeat;
+}
+
+#header {
+    height:143px;
+}
+
+#feature {
+    height:500px;
+}
+#feature .imgphones img {
+    margin-top:43px;
+}
+#feature .text {
+    margin-top:30px;
+    font-family: Aller, "Open Sans", Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+}
+#feature p, #feature h1 {
+    color:#FFF;
+}
+#feature p:first-child {
+    font-size:52px;
+    font-weight:bold;
+}
+#feature p:last-child {
+    font-size:21px;
+}
+#feature h1 {
+    font-size:37px;
+}
