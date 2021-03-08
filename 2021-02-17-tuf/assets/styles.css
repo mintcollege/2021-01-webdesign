@@ -2,7 +2,24 @@ html, body {
     background:url(../images/web-feature-bg.jpg) center top no-repeat;
     color:#555;
 }
-
+h2 {
+    font-family:Aller, "Open Sans", Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+    font-size:36px;
+    font-weight:bold;
+}
+h4 {
+    font-family:Aller, "Open Sans", Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+    font-size:21px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+p {
+    font-family:"Open Sans", Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+    font-size:19px;
+}
+ul {
+    padding-left:0;
+}
 #header {
     height:143px;
 }
@@ -38,16 +55,22 @@ html, body {
     padding-top:90px;
     background:url(../images/bg-about-us.png) left bottom repeat-x;
 }
-#aboutus h2 {
-    font-family:Aller, "Open Sans", Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
-    font-size:36px;
-    font-weight:bold;
-}
-#aboutus p {
-    font-family:"Open Sans", Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
-    font-size:19px;
-}
+
+
 
 #macro {
+    border-top:1px solid #CCC;
+    margin-bottom:90px;
+}
+
+#contact {
+    margin-bottom:90px;
+}
+#contact .writeup p {
+    font-family:"Open Sans", Arial, Helvetica, Trebuchet, Tahoma, sans-serif;
+    font-size:16px;
+}
+
+#footer {
     border-top:1px solid #CCC;
 }

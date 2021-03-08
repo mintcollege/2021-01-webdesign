@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <title>Many items to choose from</title>
+</head>
+<body>
+
+    <form method="post" action="">
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="">Choose one</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="c">It's complicated</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col">Checkbox here</div>
+            <div class="col">Radio here</div>
+        </div>
+        <div>
+            <h4>Favorite Foods</h4>
+            <ul>
+                <li><label><input name="foods[]" type="checkbox" value="ramen" /> Ramen
+                </label></li>
+                <li><label><input name="foods[]" type="checkbox" value="chicken"/> Chicken
+                </label></li>
+                <li><label><input name="foods[]" type="checkbox" value="barbecue"/> Barbecue
+                </label></li>
+                <li><label><input name="foods[]" type="checkbox" checked value="pizza" /> Pizza
+                </label></li>
+                <li><label><input name="foods[]" type="checkbox" value="tempura" /> Tempura
+                </label></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Where do you want to go?</h4>
+            <ul>
+                <li><label><input name="country" type="radio"
+                                  value="Philippines" /> Philippines</label></li>
+                <li><label><input name="country" type="radio"
+                                  value="Canada" /> Canada</label></li>
+                <li><label><input name="country" type="radio" checked
+                                  value="Japan" /> Japan</label></li>
+                <li><label><input name="country" type="radio"
+                                  value="France" /> France</label></li>
+                <li><label><input name="country" type="radio"
+                                  value="Korea" /> Korea</label></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Blog post</h4>
+            <label for="blogpost">Type here</label>
+            <textarea id="blogpost" name="blogpost" placeholder="Start typing..."></textarea>
+        </div>
+        <div>
+            <h4>Project Description</h4>
+            <textarea name="desc" placeholder="Describe your project" cols="30"
+                      rows="5"></textarea>
+        </div>
+        <div>
+            <input name="submit" type="submit" value="Send your form" />
+            <button type="submit">Send your form</button>
+        </div>
+    </form>
+    <a href="home.html">Home</a>
+    <button>Click me (usually for Javascript)</button>
+
+</body>
+</html>

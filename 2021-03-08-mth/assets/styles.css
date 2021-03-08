@@ -1,0 +1,22 @@
+nav.navbar {
+    background:#2D599F;
+    padding-top:0;
+    padding-bottom:0;
+    box-shadow:0 3px 10px #777;
+}
+nav.navbar a {
+    color:#FFF;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+nav.navbar a:hover {
+    background:#FFF;
+    color:#000!important;
+}
+nav.navbar a.active {
+    font-weight:bold;
+}
+
+.navbar-expand-lg {
+
+}
