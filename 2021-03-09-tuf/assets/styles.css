@@ -1,0 +1,19 @@
+
+#header {
+    margin-bottom:50px;
+}
+#navbar {
+    background:#1CA0F1;
+    padding-top:0;
+    padding-bottom:0;
+    box-shadow:0 5px 5px #999;
+}
+#navbar li a {
+    height:70px;
+    line-height:70px;
+    padding-top:0;
+    padding-bottom:0;
+}
+#navbar li a:hover {
+    background:#89CAF1;
+}
