@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <title>Modal Window for the Masses</title>
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+</head>
+<body>
+
+<!-- Button trigger modal -->
+<div class="container text-center mt-5">
+    <p>Click me and see what happens.</p>
+    <p class="mx-auto" style="width:50px;">
+        <img class="img-fluid" src="images/arrow-down.png" alt="arrow">
+    </p>
+    <button type="button" class="btn btn-primary"
+            data-bs-toggle="modal" data-bs-target="#demomodal">Login
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="demomodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="mx-auto text-center">
+                    <img class="img-fluid w-25 mb-3" src="images/logo.png" alt="VW logo"><br>
+                    <h4 class="">Login Form</h4>
+                </div>
+            </div>
+            <div class="modal-body">
+                
+                <form action="" method="post">
+                    <div class="mb-sm-4 mb-md-3">
+                        <input name="username" type="text" class="form-control"
+                               placeholder="Username" />
+                    </div>
+                    <div class="mb-sm-4 mb-md-3">
+                        <input name="password" type="password" class="form-control"
+                               placeholder="Password" />
+                    </div>
+                    <div class="mb-sm-4 mb-md-3">
+                        <label>
+                            <input name="remember" type="checkbox" class="form-check-input" /> Remember me
+                        </label>
+                    </div>
+                    <div class="submit text-end">
+                        <input type="submit" class="btn btn-primary" value="Submit the form">
+                    </div>
+                </form>
+                <p><a href="#"><small>I lost my password</small></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <small>Copyright 2021. All rights reserved.</small>
+</footer>
+
+
+<script src="assets/bootstrap.min.js" defer></script>
+</body>
+</html>

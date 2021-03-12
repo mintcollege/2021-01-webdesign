@@ -1,0 +1,23 @@
+
+.modal-header {
+    border:none;
+    padding-bottom:0;
+}
+.modal-content {
+    background:#D8E7F1;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+}
+/*
+.modal-header h4 {
+    margin:0 auto;
+}
+*/
+small {
+    font-size:11px;
+    font-family:Verdana, Trebuchet, Tahoma, Arial, sans-serif;
+    color:#777;
+}
+
+.carousel {
+    border:1px solid #000;
+}
